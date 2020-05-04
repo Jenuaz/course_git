@@ -1,2 +1,4 @@
 To clone project with additional link to antoher sources required next flag while cloning:
-git clone --recurse-submodule [link to repository]
+	git clone --recurse-submodule [link to repository]
+To add external git project as submodule required next clone command:
+	git submodule add [link to repository]
