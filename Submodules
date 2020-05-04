@@ -1,2 +1,2 @@
 To clone project with additional link to antoher sources required next flag while cloning:
-
+git clone --recurse-submodule [link to repository]
