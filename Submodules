@@ -2,3 +2,7 @@ To clone project with additional link to antoher sources required next flag whil
 	git clone --recurse-submodule [link to repository]
 To add external git project as submodule required next clone command:
 	git submodule add [link to repository]
+To pull a Git submodule, use the “git submodule update” command with the “–init” and the “–recursive” options.
+	git submodule update --init --recursive
+In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
+	git submodule update --remote --merge
